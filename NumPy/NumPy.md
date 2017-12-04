@@ -70,6 +70,8 @@ The most important difference for data science is the ability to do **element-wi
 ### Examples <a name="ex"></a>
 
 ```python
+import numpy as np
+
 # 1 dimensional
 x = np.array([1,2,3])
 # 2 dimensional
@@ -112,6 +114,7 @@ y = np.arange(3,7,2)
 
 #### Examples <a name="array-example"></a>
 ```python
+import numpy as np
 # Sort sorts in ascending order
 y = np.array([10, 9, 8, 7, 6, 5, 4, 3, 2, 1])
 y.sort()
@@ -131,6 +134,7 @@ print(y)
 
 #### Example <a name="array-elements-examples"></a>
 ```python
+import numpy as np
 # Append items to array
 a = np.array([(1, 2, 3),(4, 5, 6)])
 b = np.append(a, [(7, 8, 9)])
@@ -151,6 +155,7 @@ print(np.delete(b, 2))
 
 #### Example <a name="array-combine-examples"></a>
 ```python
+import numpy as np
 a = np.array([1, 3, 5])
 b = np.array([2, 4, 6])
 
@@ -328,6 +333,7 @@ other_other_a = a[b != 1]
 ```
 
 ```python
+import numpy as np
 x = np.array([4,6,8,1,2,6,9])
 y = x > 5
 print(x[y])
