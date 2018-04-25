@@ -189,8 +189,16 @@ print(np.array_split(a, 3))
 |:--------|:--------|:--------|
 |`other = ndarray.flatten()`|Flattens a 2d array to 1d|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.flatten.html)|
 |`array = np.transpose(other)`</br> `array.T` |Transpose array|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.transpose.html)|
-
+|`inverse = np.linalg.inv(matrix)`|Inverse of a given matrix|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.linalg.inv.html) |
 </br>
+
+#### Example <a name="inverse of a matrix"></a>
+```python
+# Find inverse of a given matrix
+>>> np.linalg.inv([[3,1],[2,4]])
+array([[ 0.4, -0.1],
+       [-0.2,  0.3]])
+```
 
 ## Mathematics <a name="maths"></a>
 
