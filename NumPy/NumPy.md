@@ -189,8 +189,16 @@ print(np.array_split(a, 3))
 |:--------|:--------|:--------|
 |`other = ndarray.flatten()`|Flattens a 2d array to 1d|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.flatten.html)|
 |`array = np.transpose(other)`</br> `array.T` |Transpose array|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.transpose.html)|
-
+|`inverse = np.linalg.inv(matrix)`|Inverse of a given matrix|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.linalg.inv.html) |
 </br>
+
+#### Example <a name="inverse of a matrix"></a>
+```python
+# Find inverse of a given matrix
+>>> np.linalg.inv([[3,1],[2,4]])
+array([[ 0.4, -0.1],
+       [-0.2,  0.3]])
+```
 
 ## Mathematics <a name="maths"></a>
 
@@ -206,6 +214,7 @@ print(np.array_split(a, 3))
 |`np.cos(x)`|Element-wise cosine|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.cos.html#numpy.cos)|
 |`np.log(x)`|Element-wise natural log|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.log.html#numpy.log)|
 |`np.dot(x,y)`|Dot product|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.dot.html)|
+|`np.roots([1,0,-4])`|Roots of a given polynomial coefficients|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.roots.html)|
 
 Remember: NumPy array operations work element-wise.
 
@@ -219,6 +228,15 @@ b = np.array([(1, 2, 3), (4, 5, 6)])
 print(np.add(a, b))
 >>> [[2 4 6]
      [5 7 9]]
+     
+# Example of np.roots
+# Consider a polynomial function (x-1)^2 = x^2 - 2*x + 1
+# Whose roots are 1,1
+>>> np.roots([1,-2,1])
+array([1., 1.])
+# Similarly x^2 - 4 = 0 has roots as x=±2
+>>> np.roots([1,0,-4])
+array([-2.,  2.])
 ```
 
 ### Comparison
