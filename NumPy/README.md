@@ -1,6 +1,6 @@
 # NumPy Cheat Sheet
 
-[NumPy]`(http://www.numpy.org)` is the fundamental package for scientific computing with Python.
+[NumPy](http://www.numpy.org) is the fundamental package for scientific computing with Python.
 
 ### Installation
 If you don't already have it **installed**, you can do so using Pip or Anaconda:
