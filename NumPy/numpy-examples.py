@@ -1,3 +1,11 @@
+""" NumPy is module for Python.
+ The name is an acronym for "Numeric Python" or "Numerical Python".
+  It is pronounced /ˈnʌmpaɪ/ (NUM-py) or less often /ˈnʌmpi (NUM-pee)).
+   It is an extension module for Python, mostly written in C.
+    This makes sure that the precompiled mathematical and numerical functions and functionalities of Numpy guarantee great execution speed.
+"""
+
+
 # THIS IS AN UNSTRUCTURED TEST FILE
 import numpy as np
 
@@ -20,3 +28,19 @@ print(x[y])
 x = np.array([1, 2, 3, 4, 4, 35, 212, 5, 5, 6])
 print(x[x < 5])
 # >>> [1 2 3 4 4]
+
+# how you actually copy array without messing with the previous one
+new_arr = b.copy()
+
+#multidimensional array in numpy called matrix  .(3x3) matrix
+mymatrix = [[1,2,3] , [4,5,6] , [7,8,9]]
+
+# generates 3 zeros in an array 
+myzeros = np.zeros(3)
+
+# generates 4 ones in an array 
+myones = np.ones(4)
+
+#creates an identity matrix uing numpy (4x4)
+
+identitymatrix = np.eye(4)
