@@ -104,7 +104,7 @@ y = np.arange(3,7,2)
 |`array.astype(type)`|Converts to Data Type|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.astype.html)|
 |`type(array)`|Type of Array|[link](https://docs.scipy.org/doc/numpy/user/basics.types.html)|
 
-### Copying/Sorting <a name="grops"></a>
+### Copying/Sorting <a name="gops"></a>
 | Operators | Descriptions     | Documentation |
 | :------------- | :------------- | :----------- |
 |`np.copy(array)`|Creates copy of array|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.copy.html)|
