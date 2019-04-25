@@ -59,7 +59,7 @@ NumPy is probably your best friend for that. Check out my CheatSheet [here](http
 | `fig, b = plt.subplots(nrows=3, nclos=2)`|Adds subplot| [link](http://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.subplot)|
 |`ax = plt.subplots(2, 2)`|Creates subplot|[link](http://matplotlib.org/api/pyplot_api.html?highlight=subplots#matplotlib.pyplot.subplots)|
 
-Axes are very useful for subplots. See example [here](#axes)
+Axes are very useful for subplots. See example [here](#sub)
 
 **After configuring your plot, you must use `plt.show()` to make it visible**
 
