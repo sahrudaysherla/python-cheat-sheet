@@ -12,7 +12,7 @@ or
 $ conda install numpy
 ```
 
-This cheat sheet acts as a intro to Python for data science. ***Contact me [here](https://twitter.com/JulianGaal) for typos or suggestions, and - of course - fork and tune it to your taste!***
+This cheat sheet acts as a intro to Python for data science. 
 
 ## Index
 1. [Basics](#basics)
@@ -29,6 +29,8 @@ This cheat sheet acts as a intro to Python for data science. ***Contact me [here
         + [Examples](#array-combine-examples)
       * [Splitting Arrays](#split)
         + [Examples](#array-split-examples)
+      * [Shaping](#shape)
+      * [Misc](#misc)
 3. [Mathematics](#maths)
     - [Arithmetic Operations](#ops)
       * [Examples](#operations-examples)
@@ -183,8 +185,18 @@ a = np.array([1, 2, 3, 4, 5, 6, 7, 8])
 print(np.array_split(a, 3))
 >>> [array([1, 2, 3]), array([4, 5, 6]), array([7, 8])]
 ```
+### Shaping Arrays <a name="shape"></a>
+##### TODO
+|Operator|Description|Documentation|
+|:---------|:-------|:------|
+|`other = ndarray.flatten()`|Flattens a 2d array to 1d|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.flatten.html)|
+|numpy.flip()|Flips order of elements in 1D array||
+|np.ndarray[::-1]|Same as above||
+|reshape|||
+|squeeze|||
+|expand_dims|||
 
-### More <a name="more"></a>
+### Misc <a name="misc"></a>
 |Operator|Description|Documentation|
 |:--------|:--------|:--------|
 |`other = ndarray.flatten()`|Flattens a 2d array to 1d|[link](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.flatten.html)|
