@@ -1,6 +1,6 @@
 # Python Cheat Sheet
 
-This rep is a growing list of Python cheat sheets, tailored for Data Science.
+This rep is a growing list of Python cheat sheets.
 
 ***Found any typos or have a suggestion? Fork, contribute and tune it to your taste!***
 
@@ -27,3 +27,4 @@ This will install all the packages to your environment.
 ### Future additions:
 * Basic Python syntax
 * (Probably) Pandas
+* PyBind
